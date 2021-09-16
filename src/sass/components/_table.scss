@@ -1,0 +1,85 @@
+.big-data {
+  width: 100%;
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  
+  .table-row-wrapper {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 420px;
+  
+    .column {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+    }
+  }
+  
+  .table-row {
+    height: 50px;
+    width: 300px;
+    padding: 10px 0 0 0;
+    border-bottom: 1.5px solid $background-color;
+    display: flex;
+    justify-content: space-between;
+    font-family: $paragraph-font;
+  
+    p {
+      display: inline-block;
+      font-size: 14px;
+      font-weight: bold;
+      color: $background-color;
+  
+      &:last-of-type {
+        color: $paragraph-color;
+        font-size: 16px;
+        font-weight: normal;
+      }
+    }
+  }
+}
+  
+@media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+  table, thead, tbody, th, td, tr { 
+    display: block; 
+      
+  }
+      
+  thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+      
+  tr { border-bottom: 1px solid $background-color; }
+      
+  td { 
+          
+    border: none;
+    border-bottom: 1px solid $background-color;
+    position: relative;
+    padding-left: 40%; 
+  }
+      
+  td:before { 
+    position: absolute;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+      
+  td:nth-of-type(1):before { content: "Date"; }
+  
+  td:nth-of-type(2):before { content: "Amount($)"; }
+  
+  td:nth-of-type(3):before { content: "Deal"; }
+  
+  td:nth-of-type(4):before { content: "Account"; }
+}
