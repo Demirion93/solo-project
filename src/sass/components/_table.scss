@@ -41,45 +41,83 @@
       }
     }
   }
-}
-  
-@media 
-  only screen and (max-width: 760px),
-  (min-device-width: 768px) and (max-device-width: 1024px)  {
-  table, thead, tbody, th, td, tr { 
-    display: block; 
-      
+
+  @media (min-width: 1501px) and (max-width: 1750px) {
+    .table-row-wrapper {
+      margin-left: 350px;
+    }
+
+    .table-row {
+      width: 300px;
+    }
   }
-      
-  thead tr { 
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
+
+  @media (min-width: 1200px) and (max-width: 1500px) {
+    .table-row-wrapper {
+      margin-left: 320px;
+    }
+
+    .table-row {
+      width: 240px;
+    }
   }
-      
-  tr { border-bottom: 1px solid $background-color; }
-      
-  td { 
-          
-    border: none;
-    border-bottom: 1px solid $background-color;
-    position: relative;
-    padding-left: 40%; 
+
+  @media (min-width: 1025px) and (max-width: 1199px) {
+    .table-row-wrapper {
+      margin-left: 260px;
+    }
+
+    .table-row {
+      width: 220px;
+    }
   }
-      
-  td:before { 
-    position: absolute;
-    left: 6px;
-    width: 45%;
-    padding-right: 10px;
-    white-space: nowrap;
+  
+  @media (min-width: 992px) and (max-width: 1024px) {
+    .table-row-wrapper {
+      margin-left: 260px;
+    }
+
+    .table-row {
+      width: 220px;
+    }
   }
-      
-  td:nth-of-type(1):before { content: "Date"; }
-  
-  td:nth-of-type(2):before { content: "Amount($)"; }
-  
-  td:nth-of-type(3):before { content: "Deal"; }
-  
-  td:nth-of-type(4):before { content: "Account"; }
+
+  @media (min-width: 769px) and (max-width: 991px) {
+    .table-row-wrapper {
+      margin-left: 190px;
+    }
+
+    .table-row {
+      width: 160px;
+    }
+  }
+
+  @media (min-width: 542px) and (max-width: 768px) {
+    .table-row-wrapper {
+      margin-left: 150px;
+    }
+
+    .table-row {
+      width: 120px;
+    }
+  }
+
+  @media (min-width: 476px) and (max-width: 542px) {
+    .table-row-wrapper {
+      margin-left: 120px;
+    }
+
+    .table-row {
+      width: 110px;
+    }
+  }
+  @media (max-width: 475px) {
+    .table-row-wrapper {
+      margin-left: 100px;
+    }
+
+    .table-row {
+      width: 105px;
+    }
+  }
 }
