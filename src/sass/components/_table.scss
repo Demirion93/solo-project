@@ -42,63 +42,73 @@
     }
   }
 
-  @media (min-width: 1501px) and (max-width: 1750px) {
+  @media (min-width: 1751px) and (max-width: 1850px) {
     .table-row-wrapper {
-      margin-left: 350px;
+      margin-left: 400px;
     }
 
     .table-row {
-      width: 300px;
+      width: 250px;
+    }
+  }
+
+  @media (min-width: 1501px) and (max-width: 1750px) {
+    .table-row-wrapper {
+      margin-left: 330px;
+    }
+
+    .table-row {
+      width: 250px;
     }
   }
 
   @media (min-width: 1200px) and (max-width: 1500px) {
     .table-row-wrapper {
-      margin-left: 320px;
+      margin-left: 300px;
     }
 
     .table-row {
-      width: 240px;
+      width: 200px;
     }
   }
 
   @media (min-width: 1025px) and (max-width: 1199px) {
     .table-row-wrapper {
-      margin-left: 260px;
+      margin-left: 220px;
     }
 
     .table-row {
-      width: 220px;
+      width: 180px;
     }
   }
   
   @media (min-width: 992px) and (max-width: 1024px) {
     .table-row-wrapper {
-      margin-left: 260px;
+      margin-left: 200px;
     }
 
     .table-row {
-      width: 220px;
+      width: 150px;
     }
   }
 
   @media (min-width: 769px) and (max-width: 991px) {
     .table-row-wrapper {
-      margin-left: 190px;
+      margin-left: 170px;
     }
 
     .table-row {
-      width: 160px;
+      width: 120px;
     }
   }
 
   @media (min-width: 542px) and (max-width: 768px) {
     .table-row-wrapper {
-      margin-left: 150px;
+      margin-left: 120px;
     }
 
     .table-row {
-      width: 120px;
+      width: 80px;
     }
   }
 
@@ -108,16 +118,16 @@
     }
 
     .table-row {
-      width: 110px;
+      width: 60px;
     }
   }
   @media (max-width: 475px) {
     .table-row-wrapper {
-      margin-left: 100px;
+      margin-left: 80px;
     }
 
     .table-row {
-      width: 105px;
+      width: 40px;
     }
   }
 }
