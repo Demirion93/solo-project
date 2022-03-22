@@ -1,1 +1,1 @@
-https://demirion93.github.io/solo-project/
+https://wieru.github.io/solo-project/
